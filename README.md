@@ -4,4 +4,5 @@ In this project, we are going to create the HTML structure alone. The model we h
 
 Let's try to do as well :)
 
-<img src="/html_advanced/sources/img/Figma.png" width="128"/>
+
+![Figma file] (/html_advanced/sources/img/Figma.png)
