@@ -1,0 +1,67 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Source Sans Pro;
+}
+
+/* Header, Nav, and Block1 styling */
+header, .block1 {
+    background: black url('/CSS_advanced/sources/visage.png') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+}
+
+nav .menu a {
+    color: white;
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+/* Blockquote styling */
+.Blockquote {
+    background-color: violet;
+    color: white;
+    padding: 20px;
+}
+
+/* Videos list sectio styling */
+#Videos-list-section {
+    background-color: white;
+    padding: 20px;
+}
+
+/* Membership section styling*/
+#Membership-section {
+    background: black;
+    color: white;
+    padding: 20px;
+}
+
+/* FAQ Section styling */
+#FAQ-section {
+    background-color: white;
+    padding: 20px;
+}
+
+/* Footer styling */
+footer {
+    background: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-link img {
+    width: 24px;
+    margin: 0 10px;
+}
