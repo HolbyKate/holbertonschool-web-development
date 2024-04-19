@@ -17,9 +17,14 @@ Reminders:
 - Keep your CSS simple and clean - use as simple as you can CSS selectors
 - Be accurate - the final result should be the same as the page at the end!
 
-![Fond visage](Fond visage.jpeg)
+![Figma](Fond visage.jpeg)
 
 Based on the Figma file, add the correct styling to the quote section
 
+3: Copy Quotes style
 
+4: copy videos list
 
+5: copy Membership
+
+Copy FAQ ans publish it :)
