@@ -1,61 +1,200 @@
 body, html {
     margin: 0;
     padding: 0;
-    font-family: Source Sans Pro;
+    font-family: 'Source Sans Pro' , sans-serif;
 }
 
 /* Header, Nav, and Block1 styling */
-header, .block1 {
-    background: black url('/CSS_advanced/sources/visage.png') no-repeat center center;
+header, main {
+    size: 100%;
+    background-image: url("/CSS_advanced/sources/background.png"), radial-gradient(circle, rgba(255,255,255,0), rgba(0,0,0,1));
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     color: white;
     text-align: center;
+    overflow: hidden;
+    margin: 0;
     padding: 0;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    position: absolute;
+    width: 100%;
     padding: 10px 20px;
     color: white;
 }
 
-nav .menu a {
+nav #logo a, nav #menu a {
     color: white;
     text-decoration: none;
-    padding: 0 15px;
+    padding: 10px 20px;
+    font-size: 20px;
 }
+
+nav #logo a {
+    font-weight: bold;
+    padding-left: 100px;;
+}
+
+nav #menu {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 100px;;
+}
+
+#Banner {
+    h1 {
+        font-size: 120px;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 150px;
+    }
+    p {
+        font-size: 16px;
+        font-weight: bold;
+        margin: 50px;
+        text-align: center;
+        word-spacing: 50px;
+    }
+    button {
+        background-color: #C271FF;
+        color: white;
+        border: none;
+        border-radius: 30px;
+        font-size: 14px;
+        font-weight: 600;
+        padding: 10px 20px;
+        width: 200px;
+        height: 44px;
+        text-align: center;
+        display: inline-block;
+        cursor: pointer;
+        margin: 4px 2px;
+    }
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+h2 span {
+    color:#C271FF;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+#Blocks {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    h3 {
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+    }
+    p {
+        font-size: 16px;
+        font-weight: italic;
+        text-align: center;
+    }
+}
+
 
 /* Blockquote styling */
 .Blockquote {
-    background-color: violet;
+    display: flex;
+    align-items: center;
+    height: 392px;
+    background-color: #C271FF;
     color: white;
-    padding: 20px;
+}
+
+#image {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+#image img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 300px;
+}
+
+#quote-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    margin-left: 20px;
+    flex-grow: 1;
+}
+
+blockquote {
+    margin: 0; 
+    padding: 0; 
+}
+
+blockquote p {
+    font-size: 22px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0; 
+    text-align: left;
+}
+
+#quote-content > div {
+    text-align: left;
+}
+
+#quote-content > div p span:first-child {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#quote-content > div p span:last-child {
+    font-size: 22px;
+    font-style: italic;
+    font-weight: normal;
 }
 
 /* Videos list sectio styling */
 #Videos-list-section {
-    background-color: white;
+    background-color:#F2F2F2;
     padding: 20px;
 }
 
 /* Membership section styling*/
 #Membership-section {
-    background: black;
+    background: #071629;
     color: white;
     padding: 20px;
 }
 
+#Membership-section h1 {
+    font-size: 32px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+
+
 /* FAQ Section styling */
 #FAQ-section {
-    background-color: white;
+    background-color:#F2F2F2;
     padding: 20px;
 }
 
 /* Footer styling */
 footer {
-    background: black;
+    background: #071629;
     color: white;
     padding: 20px;
     text-align: center;
