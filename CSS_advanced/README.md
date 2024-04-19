@@ -17,7 +17,7 @@ Reminders:
 - Keep your CSS simple and clean - use as simple as you can CSS selectors
 - Be accurate - the final result should be the same as the page at the end!
 
-![Figma](Fond visage.jpeg)
+![Figma](Figma.png)
 
 Based on the Figma file, add the correct styling to the quote section
 

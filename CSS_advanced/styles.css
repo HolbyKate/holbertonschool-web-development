@@ -7,7 +7,7 @@ body, html {
 /* Header, Nav, and Block1 styling */
 header, main {
     size: 100%;
-    background-image: url("/CSS_advanced/sources/background.png"), radial-gradient(circle, rgba(255,255,255,0), rgba(0,0,0,1));
+    background-image: url("/CSS_advanced/sources/background.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
