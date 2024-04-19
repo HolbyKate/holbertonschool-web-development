@@ -17,14 +17,24 @@ Reminders:
 - Keep your CSS simple and clean - use as simple as you can CSS selectors
 - Be accurate - the final result should be the same as the page at the end!
 
-![Figma](Figma.png)
+![Fond](Fond-visage.jpeg)
 
 Based on the Figma file, add the correct styling to the quote section
 
 3: Copy Quotes style
 
+![violet](Fond-violet.jpeg)
+
 4: copy videos list
+
+![video](videos.jpeg)
 
 5: copy Membership
 
-Copy FAQ ans publish it :)
+![membership](membership.jpeg)
+
+6: Copy FAQ
+
+![FAQ](FAQ.jpeg)
+
+and publish it :)
